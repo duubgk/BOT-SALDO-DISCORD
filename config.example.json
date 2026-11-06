@@ -1,0 +1,22 @@
+{
+  "staffRoleIds": ["ID_DO_CARGO_STAFF"],
+  "channels": {
+    "balanceLog": "ID_DO_CANAL_DE_LOG_DE_SALDO"
+  },
+  "balanceRoleThresholds": [
+    { "min": 200000, "roleId": "ID_CARGO_R$2000" },
+    { "min": 100000, "roleId": "ID_CARGO_R$1000" },
+    { "min": 50000, "roleId": "ID_CARGO_R$500" },
+    { "min": 25000, "roleId": "ID_CARGO_R$250" },
+    { "min": 10000, "roleId": "ID_CARGO_R$100" },
+    { "min": 0, "roleId": "ID_CARGO_INICIAL" }
+  ],
+  "top1RoleId": "ID_DO_CARGO_TOP_1",
+  "emojis": {
+    "ranking": ["🥇", "🥈", "🥉", "4️⃣", "5️⃣"],
+    "seta": "➜",
+    "dinheiro": "💰",
+    "ok": "✅",
+    "info": "ℹ️"
+  }
+}

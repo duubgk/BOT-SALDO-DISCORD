@@ -1,0 +1,17 @@
+{
+  "name": "bot-saldo",
+  "version": "1.0.0",
+  "description": "Bot de Discord para controlar o saldo (quanto cada cliente j\u00e1 gastou) de uma loja, com ranking e cargos autom\u00e1ticos",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1"
+  }
+}
